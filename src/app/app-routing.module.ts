@@ -5,6 +5,7 @@ import { TablesComponent } from './pages/tables/tables.component';
 import { FormsComponent } from './pages/forms/forms.component';
 import { TypographyComponent } from './pages/typography/typography.component';
 import { MapsComponent } from './pages/maps/maps.component';
+import { HahahaComponent } from './hahaha/hahaha.component';
 import { NotificationsComponent } from './pages/notifications/notifications.component';
 
 const routes: Routes = [
@@ -13,6 +14,7 @@ const routes: Routes = [
   {path: 'forms', component: FormsComponent},
   {path: 'tables', component: TablesComponent},
   {path: 'typography', component: TypographyComponent},
+  {path: 'upload', component: HahahaComponent},
   {path: 'maps', component: MapsComponent},
   {path: 'notifications', component: NotificationsComponent}
 ];

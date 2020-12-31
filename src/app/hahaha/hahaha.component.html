@@ -1,0 +1,23 @@
+
+    
+    
+
+               <button 
+                    type="button"
+                    onclick='document.getElementById("fileInput").click();'
+                    class="btn btn-primary">
+                    Upload Photos
+               </button>
+
+        
+          <input #file id="fileInput" type="file"  accept='image/*' (change)="preview($event)" multiple />
+           <div class="container-fluid" *ngIf="imgURL.length > 0">
+               <!-- <img [src]="imgURL[0]" width="100px" height="100px" > 
+               <img [src]="imgURL[1]"  width="100px" height="100px">  -->
+
+               <img *ngFor="let img of imgURL" [src]="img" width="100px" height="100px" > 
+          </div>
+          
+      
+      
+      

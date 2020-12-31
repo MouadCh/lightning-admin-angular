@@ -15,12 +15,14 @@ import { FooterComponent } from './components/footer/footer.component';
 import { DashboardComponent } from './pages/dashboard/dashboard.component';
 import { TablesComponent } from './pages/tables/tables.component';
 import { FormsComponent } from './pages/forms/forms.component';
+import { HahahaComponent } from './hahaha/hahaha.component';
 import { TypographyComponent } from './pages/typography/typography.component';
 import { MapsComponent } from './pages/maps/maps.component';
 import { NotificationsComponent } from './pages/notifications/notifications.component';
 
 @NgModule({
   declarations: [
+    HahahaComponent,
     AppComponent,
     NavbarComponent,
     SidebarComponent,

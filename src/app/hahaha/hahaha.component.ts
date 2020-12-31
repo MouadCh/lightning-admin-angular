@@ -1,11 +1,12 @@
 import { Component, OnInit } from '@angular/core';
+import { readElementValue } from '@angular/core/src/render3/util';
 
 @Component({
-  selector: 'app-forms',
-  templateUrl: './forms.component.html',
-  styleUrls: ['./forms.component.scss']
+  selector: 'app-hahaha',
+  templateUrl: './hahaha.component.html',
+  styleUrls: ['./hahaha.component.scss']
 })
-export class FormsComponent implements OnInit {
+export class HahahaComponent implements OnInit {
 
   constructor() { }
 

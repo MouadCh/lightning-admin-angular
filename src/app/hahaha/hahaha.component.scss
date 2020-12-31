@@ -1,0 +1,18 @@
+input[type='file']{
+  display: none;
+}
+.image{
+
+  height:auto;
+  width: 100%;
+  max-width: 100%;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  // background-color: gray;
+}
+
+img{
+  background-color: burlywood;
+  margin: 20px;
+}
